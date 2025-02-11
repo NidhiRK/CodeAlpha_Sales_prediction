@@ -40,35 +40,36 @@ Polynomial Regression (Best performer) 🎯
 
 Installation & Usage
 
-1️⃣ Clone the Repository
+1️⃣ Clone the Repository                                                                                                                                                                  
 git clone https://github.com/NidhiRK/CodeAlpha_Sales_prediction.git
 cd sales-prediction
 
-2️⃣ Install Dependencies
+2️⃣ Install Dependencies                                                                                                                                                                   
 pip install -r requirements.txt
 
-3️⃣ Run the Model
+3️⃣ Run the Model                                                                                                                                                                          
 python sales_prediction.py
 
 🎯 Results & Conclusion
-
-       Model          |    R² Score
- -----------------------------------------                     
-Linear Regression     |     0.899
-Random Forest         |     0.981
-Gradient Boosting     |     0.983
-Polynomial Regression |     0.987
+----------------------|--------------------|
+       Model          |    R² Score        |
+----------------------|--------------------|                    
+Linear Regression     |     0.899          | 
+Random Forest         |     0.981          |
+Gradient Boosting     |     0.983          |  
+Polynomial Regression |     0.987          | 
+----------------------|--------------------|
 
 Polynomial Regression performed the best, capturing non-linear relationships effectively. However, Gradient Boosting and Random Forest also showed strong results.
 
-Project Structure
-├── data
-│   ├── sales_data.csv
-├── src
-│   ├── sales_prediction.py
-├── README.md
-├── requirements.txt
-
+Project Structure                                                                                                                                                                         
+├── data                                                                                                                                                                                   
+│   ├── sales_data.csv                                                                                                                                                                     
+├── src                                                                                                                                                                                    
+│   ├── sales_prediction.py                                                                                                                                                                
+├── README.md                                                                                                                                                                              
+├── requirements.txt                                                                                                                                                                       
+                                  
 📌 Future Enhancements
 
 Add more features (e.g., seasonality, customer demographics)
