@@ -52,12 +52,12 @@ python sales_prediction.py
 
 🎯 Results & Conclusion
 
-       Model          |    R² Score        |
-                      |                    |                    
-Linear Regression     |     0.899          | 
-Random Forest         |     0.981          |
-Gradient Boosting     |     0.983          |  
-Polynomial Regression |     0.987          | 
+       Model          and    R² Score        
+                                                          
+Linear Regression         0.899         
+Random Forest             0.981          
+Gradient Boosting         0.983          
+Polynomial Regression     0.987           
 
 
 Polynomial Regression performed the best, capturing non-linear relationships effectively. However, Gradient Boosting and Random Forest also showed strong results.
